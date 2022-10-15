@@ -3,7 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generate = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-const question = [
+const questions = () => {
+    inquirer.prompt([
     {
         type: 'input',
         name: 'title',
@@ -50,27 +51,22 @@ const question = [
         name: 'email',
         message: 'Please enter your email address.'
     }, 
-]
+])
+.then((response) => {
+    console.log(response);
+    const fileContent = generate(response);
+
     // TODO: Create a function to write README file
-    const writeToFile = fileContent => {
-        return new Promise((reslove,reject) => {
-            fs.writeFile('./generatedREADME,md', fileContent, (error) =>{
-                error ? reject(error) : resolve('You did it!')
-            })
-        })
-    }
+    fs.writeFile('index.html', fileContent, (error) =>{
+        error ? reject(error) : resolve('You did it!')
+    })
+});
+}
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.createPromptModule(questions)
-    .then(function(answer){
-        console.log(answer);
-    var fileContent = generate(answer);
-    writeToFile(fileContent);
-    });
+const init = () => {
+    return generate()
 }
 
 // Function call to initialize app
-init();
-
-module.exports = questions;
+init()

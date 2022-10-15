@@ -47,11 +47,11 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answer) {
+function generate(response) {
   return`
-  # ${answer.title}
-  ## ${renderLicenseSection(answer.license)} ${renderLicenseBadge(answer.license)}
-  ### ${renderLicenseLink(answer.license)}
+  # ${response.title}
+  ## ${renderLicenseSection(response.license)} ${renderLicenseBadge(response.license)}
+  ### ${renderLicenseLink(response.license)}
   ## Table of Contents:
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
@@ -61,23 +61,23 @@ function generateMarkdown(answer) {
   ###  * [Questions](#questions)
   ## Installation:
   ### You must install the following for this app to function:
-  ### ${answer.installation}
+  ### ${response.installation}
   ## Usage:
-  ### ${answer.usage}
+  ### ${response.usage}
   ## Contributors:
-  ### ${answer.contributions}
+  ### ${response.contributions}
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### ${answer.tests}
+  ### ${response.tests}
   ## Questions:
   ### If you have any questions, you may contact me at either
-  ### Github: https://github.com/${answer.askMe}
+  ### Github: https://github.com/${response.askMe}
   ### or
-  ### Email: ${answer.email}
+  ### Email: ${response.email}
 `;
 }
 
 // exports
-module.exports = generateMarkdown;
+module.exports = generate;
 
-module.exports = generateMarkdown;
+module.exports = generate;
