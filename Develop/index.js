@@ -14,7 +14,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message: 'Please enter the license your project uses.',
-        choices: ['None', 'MIT', 'Apache License 2.0', 'The Unlicense']
+        choices: ['None', 'MIT', 'Apache License 2.0', 'GPL v3.0']
     },
     {
         type: 'input',
@@ -65,7 +65,7 @@ const questions = () => {
 
 // TODO: Create a function to initialize app
 const init = () => {
-    return generate()
+    return generate(response)
 }
 
 // Function call to initialize app
