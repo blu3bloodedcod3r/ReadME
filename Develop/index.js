@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generate = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
+console.log(generate)
 const questions = () => {
     inquirer.prompt([
     {
@@ -28,7 +29,7 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Please enter any helpful usage information that the user may need.'
     },
     {
@@ -57,8 +58,11 @@ const questions = () => {
     const fileContent = generate(response);
 
     // TODO: Create a function to write README file
-    fs.writeFile('index.html', fileContent, (error) =>{
-        error ? reject(error) : resolve('You did it!')
+    fs.writeFile('index.md', fileContent, (error) =>{
+        //error ? reject(error)
+        if (error) {
+            throw error
+        }
     })
 });
 }
@@ -68,5 +72,6 @@ const init = () => {
     return generate(response)
 }
 
+questions();
 // Function call to initialize app
-init()
+//init()

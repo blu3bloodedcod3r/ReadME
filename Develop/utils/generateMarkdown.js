@@ -23,11 +23,11 @@ return badge;
 function renderLicenseLink(license) {
   let licenseLink = '';
     if(license === 'MIT') {
-      licenseLink = 'https://choosealicense.com/licenses/mit/'
+      licenseLink = 'https://img.shields.io/badge/license-MIT-blue'
     } else if (license === 'Apache 2.0') {
-      licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0'
+      licenseLink = 'https://img.shields.io/badge/license-Apache2.0-blue'
     } else if (license === 'GPL v3.0') {
-      licenseLink = 'https://www.gnu.org/licenses'
+      licenseLink = 'https://img.shields.io/badge/license-GPLv3.0-blue'
     } else {
       licenseLink = ""
     }
@@ -56,8 +56,8 @@ function generate(response) {
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
   ###  * [License](#license)
-  ###  * [Contributors](#contributors)
-  ###  * [Tests](#tests)
+  ###  * [Contributors](#contribution)
+  ###  * [Tests](#test)
   ###  * [Questions](#questions)
   ## Installation:
   ### You must install the following for this app to function:
@@ -65,19 +65,17 @@ function generate(response) {
   ## Usage:
   ### ${response.usage}
   ## Contributors:
-  ### ${response.contributions}
+  ### ${response.contribution}
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### ${response.tests}
+  ### ${response.test}
   ## Questions:
   ### If you have any questions, you may contact me at either
-  ### Github: https://github.com/${response.askMe}
+  ### Github: https://github.com/${response.username}
   ### or
   ### Email: ${response.email}
 `;
 }
 
 // exports
-module.exports = generate;
-
 module.exports = generate;
