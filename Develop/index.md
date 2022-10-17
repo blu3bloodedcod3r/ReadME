@@ -13,12 +13,12 @@
   ### You must install the following for this app to function:
   ### undefined
   ## Usage:
-  ### usefull info here
+  ### anymore useful infor goes here
   ## Contributors:
-  ### contributions here
+  ### contributions to be descriptive
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### testing info
+  ### testing instructions, if any
   ## Questions:
   ### If you have any questions, you may contact me at either
   ### Github: https://github.com/blu3bloodedcod3r
