@@ -22,13 +22,7 @@ The only requirment for this project is to have inquirer 8.2.4 installed for you
 
 The following video shows how the readme file is made using the Node environment.
 
-    ```mdView
-prof readme video
-prof readme video
-Aguilar, Crystal
-
-    ![video snippet of readME file being made through NODE environment]()
-    ```
+![video snippet of readME file being made through NODE environment] [<img src="https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244" width="50%">](https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244 "ReadMe preview")
 
 ## Credits
 
