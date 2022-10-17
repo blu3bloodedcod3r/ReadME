@@ -28,7 +28,7 @@ The following video shows how the readme file is made using the Node environment
 
 ## Credits
 
-i had help from a school tutor for fixing the error i had to finalize this project.
+I had help from a school tutor for fixing the error i had to finalize this project.
 
 ## License
 

@@ -1,7 +1,7 @@
 
-  # Enter title here
-  ## License: MIT  ![License(https://img.shields.io/badge/license-MIT-blue)
-  ### https://img.shields.io/badge/license-MIT-blue
+  # title here
+  ## License: GPL v3.0  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  ### https://img.shields.io/badge/license-GPLv3.0-blue
   ## Table of Contents:
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
@@ -13,14 +13,14 @@
   ### You must install the following for this app to function:
   ### undefined
   ## Usage:
-  ### No additional informatio needed
+  ### usefull info here
   ## Contributors:
-  ### Be as descriptive as possible when committing
+  ### contributions here
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### None
+  ### testing info
   ## Questions:
   ### If you have any questions, you may contact me at either
   ### Github: https://github.com/blu3bloodedcod3r
   ### or
-  ### Email: crytsal_0688@yahoo.com
+  ### Email: crystal_0688@yahoo.com
