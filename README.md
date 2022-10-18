@@ -20,10 +20,9 @@ The only requirment for this project is to have inquirer 8.2.4 installed for you
 
 ## Usage
 
-The following video shows how the readme file is made using the Node environment.
+The following screenshot will take you to the video of how the README file is made via the Node environment.
 
-![video snippet of readME file being made through NODE environment] 
-[<img src="https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244" width="50%">](https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244 "ReadMe preview")
+![Screenshot of video snippet of README file being made via NODE environment][<img src="./Develop/videoscreenshot.png" href="https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244" width="50%">](https://bootcampspot.instructuremedia.com/embed/1677d8a2-456a-446e-a997-c624aa43b244)
 
 ## Credits
 

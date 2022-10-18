@@ -1,7 +1,7 @@
 
-  # title here
-  ## License: GPL v3.0  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-  ### https://img.shields.io/badge/license-GPLv3.0-blue
+  # Inswert title here
+  ## License: Apache License 2.0  ![No badge](https://img.shields.io/badge/license-None-red)
+  ### 
   ## Table of Contents:
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
@@ -13,12 +13,12 @@
   ### You must install the following for this app to function:
   ### undefined
   ## Usage:
-  ### anymore useful infor goes here
+  ### anymore info would be useful
   ## Contributors:
-  ### contributions to be descriptive
+  ### be descriptive when contributing
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### testing instructions, if any
+  ### tests needed?
   ## Questions:
   ### If you have any questions, you may contact me at either
   ### Github: https://github.com/blu3bloodedcod3r
