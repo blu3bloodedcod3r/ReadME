@@ -50,27 +50,38 @@ function renderLicenseSection(license) {
 function generate(response) {
   return`
   # ${response.title}
+
   ## ${renderLicenseSection(response.license)} ${renderLicenseBadge(response.license)}
+
   ### ${renderLicenseLink(response.license)}
+
   ## Table of Contents:
+
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
   ###  * [License](#license)
   ###  * [Contributors](#contribution)
   ###  * [Tests](#test)
   ###  * [Questions](#questions)
+
   ## Installation:
   ### You must install the following for this app to function:
   ### ${response.installation}
+
   ## Usage:
   ### ${response.usage}
+
   ## Contributors:
   ### ${response.contribution}
+
   ## Tests:
   ### Run the following commands in your terminal to test this app:
   ### ${response.test}
+
   ## Questions:
+
   ### If you have any questions, you may contact me at either
+  
   ### Github: https://github.com/${response.username}
   ### or
   ### Email: ${response.email}

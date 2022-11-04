@@ -2,8 +2,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generate = require('./utils/generateMarkdown');
+
 // TODO: Create an array of questions for user input
 console.log(generate)
+
 const questions = () => {
     inquirer.prompt([
     {
@@ -25,7 +27,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'install',
-        message: 'Please enter any istallation instructions for your project.'
+        message: 'Please enter any installation instructions for your project.'
     },
     {
         type: 'input',
